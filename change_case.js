@@ -2,7 +2,6 @@ const splitWords = (str) =>
   str.replace(/(?<=[a-z0-9])(?=[A-Z0-9])|([^\na-zA-Z0-9]+)/g, "-").split("-");
 
 const alfredItem = (type, arg) => ({
-  uid: type,
   title: arg,
   subtitle: type,
   arg,
